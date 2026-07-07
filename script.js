@@ -1,10 +1,10 @@
-function saveTask() {
-  let task = document.getElementById("taskName").value;
+window.saveTask = function () {
+    let task = document.getElementById("taskName").value;
 
-  if (task == "") {
-    alert("Enter a task");
-    return;
-  }
+    if (task === "") {
+        alert("Enter a task");
+        return;
+    }
 
-  document.getElementById("output").innerHTML = "Latest Task : " + task;
-}
+    document.getElementById("output").innerHTML = "Latest Task: " + task;
+};

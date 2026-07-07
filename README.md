@@ -1,37 +1,62 @@
-# \# TaskFlow
+\# TaskFlow
 
-#
 
-# TaskFlow is a simple web application that helps users organize daily tasks.
 
-#
+\## Project Description
 
-# \## Features
 
-#
 
-# \- Add a task
+A simple web application for managing daily tasks.
 
-# \- Select task priority
 
-# \- Display the latest task
 
-# \- View today's task summary
+\## Features
 
-# \- Organize tasks into categories
 
-#
 
-# \## Technologies Used
+\- Add a task
 
-#
+\- Select task priority
 
-# \- HTML
+\- Display the latest task
 
-# \- CSS
 
-# \- JavaScript
 
-# \- Git
+\## Technologies Used
 
-# \- GitHub
+
+
+\- HTML
+
+\- CSS
+
+\- JavaScript
+
+
+
+\## Files
+
+
+
+\- index.html
+
+\- style.css
+
+\- script.js
+
+
+
+\## How to Run
+
+
+
+Open index.html in a browser.
+
+
+
+\## Author
+
+
+
+Sahithi
+
