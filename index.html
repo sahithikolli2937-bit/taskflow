@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TaskFlow</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>TaskFlow</h1>
+
+      <p>Daily Planner Dashboard</p>
+
+      <input type="text" id="taskName" placeholder="Enter task name" />
+
+      <select id="priority">
+        <option>High</option>
+        <option>Medium</option>
+        <option>Low</option>
+      </select>
+
+      <button onclick="saveTask()">Save Task</button>
+      <hr />
+
+      <h2>Today's Summary</h2>
+      <hr />
+
+      <h2>Task Categories</h2>
+
+      <ul>
+        <li>Academic</li>
+
+        <li>Personal</li>
+
+        <li>Project</li>
+      </ul>
+      <hr />
+
+      <h2>Search Tasks</h2>
+
+      <input type="text" placeholder="Search by task name" />
+      <p>Total Planned Tasks : 5</p>
+
+      <p>Completed : 2</p>
+
+      <p>Pending : 3</p>
+      <div id="output"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
